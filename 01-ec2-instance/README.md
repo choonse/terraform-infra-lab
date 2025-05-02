@@ -16,7 +16,7 @@ This example demonstrates how to launch a basic EC2 instance using Terraform on 
 ## 🚀 How to Use
 
 ```bash
-cp terraform.tfvars.example terraform.tfvars   # Create your variable file
+cp terraform.tfvars.example terraform.tfvars    # Create your variable file
 terraform init                                  # Initialize the working directory
 terraform plan -var-file="terraform.tfvars"     # Review the execution plan
 terraform apply -var-file="terraform.tfvars"    # Deploy the EC2 instance
